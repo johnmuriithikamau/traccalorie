@@ -192,6 +192,7 @@ const UICtrl = (function() {
         populateItemList: function(items) {
             let html = '';
 
+
             items.forEach(function(item) {
                 html += `<li class="collection-item" id="item-${item.id}">
         <strong>${item.name}: </strong> <em>${item.calories} Calories</em>
